@@ -4,7 +4,7 @@
 // TODO: replace with your own project values (Project Settings > API)
 const { createClient } = window.supabase;
 const supabaseUrl = "https://uvoinhyenvlxuprdqosb.supabase.co";
-const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV2b2luaHllbnZseHVwcmRxb3NiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODYxMzYxMDUsImV4cCI6MjEwMTcxMjEwNX0.PBd6qO79GVZYDQaeOK74pmsCoPovdpjluU1bm1FOUqo";
+const supabaseKey = "API-KEY";
 const supabaseClient = createClient(supabaseUrl, supabaseKey);
 
 // Search radius (meters) used for every click query.
